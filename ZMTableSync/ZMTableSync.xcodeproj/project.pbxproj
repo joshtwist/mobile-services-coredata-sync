@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		035F1C721710CEF30076CEAA /* WindowsAzureMobileServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 035F1C711710CEF30076CEAA /* WindowsAzureMobileServices.framework */; };
+		035F1C731710CEF30076CEAA /* WindowsAzureMobileServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 035F1C711710CEF30076CEAA /* WindowsAzureMobileServices.framework */; };
+		035F1C781710CF350076CEAA /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 035F1C771710CF350076CEAA /* CoreData.framework */; };
+		035F1C791710CF3B0076CEAA /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 035F1C771710CF350076CEAA /* CoreData.framework */; };
+		035F1C821710D0AF0076CEAA /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 035F1C7A1710D0AF0076CEAA /* libOCMock.a */; };
+		03940E561710FB6E0086AEC2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03940E551710FB6E0086AEC2 /* UIKit.framework */; };
+		03940E571710FB760086AEC2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03940E551710FB6E0086AEC2 /* UIKit.framework */; };
+		03AAD8F11710CC9D005039B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03AAD8F01710CC9D005039B3 /* Foundation.framework */; };
+		03AAD9001710CC9D005039B3 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03AAD8FF1710CC9D005039B3 /* SenTestingKit.framework */; };
+		03AAD9031710CC9D005039B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03AAD8F01710CC9D005039B3 /* Foundation.framework */; };
+		03AAD9061710CC9D005039B3 /* libZMTableSync.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 03AAD8ED1710CC9D005039B3 /* libZMTableSync.a */; };
+		03AAD90C1710CC9D005039B3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03AAD90A1710CC9D005039B3 /* InfoPlist.strings */; };
+		03AAD91D1710CCCE005039B3 /* ZMTableSync.m in Sources */ = {isa = PBXBuildFile; fileRef = 03AAD91B1710CCCE005039B3 /* ZMTableSync.m */; };
+		03AAD9261710CCF5005039B3 /* ZMAsyncTestingBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 03AAD91F1710CCF5005039B3 /* ZMAsyncTestingBlock.m */; };
+		03AAD9271710CCF5005039B3 /* ZMLocalStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 03AAD9211710CCF5005039B3 /* ZMLocalStore.m */; };
+		03AAD9281710CCF5005039B3 /* TestModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 03AAD9221710CCF5005039B3 /* TestModel.xcdatamodeld */; };
+		03AAD9291710CCF5005039B3 /* ZMTableSyncTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03AAD9251710CCF5005039B3 /* ZMTableSyncTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03AAD9041710CC9D005039B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03AAD8E51710CC9D005039B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03AAD8EC1710CC9D005039B3;
+			remoteInfo = ZMTableSync;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		03AAD8EB1710CC9D005039B3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		035F1C711710CEF30076CEAA /* WindowsAzureMobileServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WindowsAzureMobileServices.framework; sourceTree = "<group>"; };
+		035F1C771710CF350076CEAA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		035F1C7A1710D0AF0076CEAA /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libOCMock.a; sourceTree = "<group>"; };
+		035F1C7C1710D0AF0076CEAA /* NSNotificationCenter+OCMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+OCMAdditions.h"; sourceTree = "<group>"; };
+		035F1C7D1710D0AF0076CEAA /* OCMArg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMArg.h; sourceTree = "<group>"; };
+		035F1C7E1710D0AF0076CEAA /* OCMConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMConstraint.h; sourceTree = "<group>"; };
+		035F1C7F1710D0AF0076CEAA /* OCMock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMock.h; sourceTree = "<group>"; };
+		035F1C801710D0AF0076CEAA /* OCMockObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockObject.h; sourceTree = "<group>"; };
+		035F1C811710D0AF0076CEAA /* OCMockRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockRecorder.h; sourceTree = "<group>"; };
+		03940E551710FB6E0086AEC2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		03AAD8ED1710CC9D005039B3 /* libZMTableSync.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libZMTableSync.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		03AAD8F01710CC9D005039B3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		03AAD8F41710CC9D005039B3 /* ZMTableSync-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZMTableSync-Prefix.pch"; sourceTree = "<group>"; };
+		03AAD8FE1710CC9D005039B3 /* ZMTableSyncTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZMTableSyncTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03AAD8FF1710CC9D005039B3 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		03AAD9091710CC9D005039B3 /* ZMTableSyncTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZMTableSyncTests-Info.plist"; sourceTree = "<group>"; };
+		03AAD90B1710CC9D005039B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		03AAD91A1710CCCE005039B3 /* ZMTableSync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ZMTableSync.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		03AAD91B1710CCCE005039B3 /* ZMTableSync.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ZMTableSync.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		03AAD91E1710CCF5005039B3 /* ZMAsyncTestingBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMAsyncTestingBlock.h; sourceTree = "<group>"; };
+		03AAD91F1710CCF5005039B3 /* ZMAsyncTestingBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMAsyncTestingBlock.m; sourceTree = "<group>"; };
+		03AAD9201710CCF5005039B3 /* ZMLocalStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMLocalStore.h; sourceTree = "<group>"; };
+		03AAD9211710CCF5005039B3 /* ZMLocalStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMLocalStore.m; sourceTree = "<group>"; };
+		03AAD9231710CCF5005039B3 /* TestModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TestModel.xcdatamodel; sourceTree = "<group>"; };
+		03AAD9241710CCF5005039B3 /* ZMTableSyncTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMTableSyncTests.h; sourceTree = "<group>"; };
+		03AAD9251710CCF5005039B3 /* ZMTableSyncTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMTableSyncTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03AAD8EA1710CC9D005039B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03940E561710FB6E0086AEC2 /* UIKit.framework in Frameworks */,
+				035F1C781710CF350076CEAA /* CoreData.framework in Frameworks */,
+				03AAD8F11710CC9D005039B3 /* Foundation.framework in Frameworks */,
+				035F1C721710CEF30076CEAA /* WindowsAzureMobileServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03AAD8FA1710CC9D005039B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03940E571710FB760086AEC2 /* UIKit.framework in Frameworks */,
+				035F1C791710CF3B0076CEAA /* CoreData.framework in Frameworks */,
+				03AAD9001710CC9D005039B3 /* SenTestingKit.framework in Frameworks */,
+				03AAD9031710CC9D005039B3 /* Foundation.framework in Frameworks */,
+				03AAD9061710CC9D005039B3 /* libZMTableSync.a in Frameworks */,
+				035F1C731710CEF30076CEAA /* WindowsAzureMobileServices.framework in Frameworks */,
+				035F1C821710D0AF0076CEAA /* libOCMock.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		035F1C7B1710D0AF0076CEAA /* OCMock */ = {
+			isa = PBXGroup;
+			children = (
+				035F1C7C1710D0AF0076CEAA /* NSNotificationCenter+OCMAdditions.h */,
+				035F1C7D1710D0AF0076CEAA /* OCMArg.h */,
+				035F1C7E1710D0AF0076CEAA /* OCMConstraint.h */,
+				035F1C7F1710D0AF0076CEAA /* OCMock.h */,
+				035F1C801710D0AF0076CEAA /* OCMockObject.h */,
+				035F1C811710D0AF0076CEAA /* OCMockRecorder.h */,
+			);
+			path = OCMock;
+			sourceTree = "<group>";
+		};
+		03AAD8E41710CC9D005039B3 = {
+			isa = PBXGroup;
+			children = (
+				03AAD8F21710CC9D005039B3 /* ZMTableSync */,
+				03AAD9071710CC9D005039B3 /* ZMTableSyncTests */,
+				03AAD8EF1710CC9D005039B3 /* Frameworks */,
+				03AAD8EE1710CC9D005039B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03AAD8EE1710CC9D005039B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03AAD8ED1710CC9D005039B3 /* libZMTableSync.a */,
+				03AAD8FE1710CC9D005039B3 /* ZMTableSyncTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03AAD8EF1710CC9D005039B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				035F1C7A1710D0AF0076CEAA /* libOCMock.a */,
+				035F1C7B1710D0AF0076CEAA /* OCMock */,
+				03940E551710FB6E0086AEC2 /* UIKit.framework */,
+				035F1C771710CF350076CEAA /* CoreData.framework */,
+				035F1C711710CEF30076CEAA /* WindowsAzureMobileServices.framework */,
+				03AAD8F01710CC9D005039B3 /* Foundation.framework */,
+				03AAD8FF1710CC9D005039B3 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		03AAD8F21710CC9D005039B3 /* ZMTableSync */ = {
+			isa = PBXGroup;
+			children = (
+				03AAD91A1710CCCE005039B3 /* ZMTableSync.h */,
+				03AAD91B1710CCCE005039B3 /* ZMTableSync.m */,
+				03AAD8F31710CC9D005039B3 /* Supporting Files */,
+			);
+			path = ZMTableSync;
+			sourceTree = "<group>";
+		};
+		03AAD8F31710CC9D005039B3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03AAD8F41710CC9D005039B3 /* ZMTableSync-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		03AAD9071710CC9D005039B3 /* ZMTableSyncTests */ = {
+			isa = PBXGroup;
+			children = (
+				03AAD91E1710CCF5005039B3 /* ZMAsyncTestingBlock.h */,
+				03AAD91F1710CCF5005039B3 /* ZMAsyncTestingBlock.m */,
+				03AAD9201710CCF5005039B3 /* ZMLocalStore.h */,
+				03AAD9211710CCF5005039B3 /* ZMLocalStore.m */,
+				03AAD9221710CCF5005039B3 /* TestModel.xcdatamodeld */,
+				03AAD9241710CCF5005039B3 /* ZMTableSyncTests.h */,
+				03AAD9251710CCF5005039B3 /* ZMTableSyncTests.m */,
+				03AAD9081710CC9D005039B3 /* Supporting Files */,
+			);
+			path = ZMTableSyncTests;
+			sourceTree = "<group>";
+		};
+		03AAD9081710CC9D005039B3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03AAD9091710CC9D005039B3 /* ZMTableSyncTests-Info.plist */,
+				03AAD90A1710CC9D005039B3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03AAD8EC1710CC9D005039B3 /* ZMTableSync */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03AAD9121710CC9D005039B3 /* Build configuration list for PBXNativeTarget "ZMTableSync" */;
+			buildPhases = (
+				03AAD8E91710CC9D005039B3 /* Sources */,
+				03AAD8EA1710CC9D005039B3 /* Frameworks */,
+				03AAD8EB1710CC9D005039B3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZMTableSync;
+			productName = ZMTableSync;
+			productReference = 03AAD8ED1710CC9D005039B3 /* libZMTableSync.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		03AAD8FD1710CC9D005039B3 /* ZMTableSyncTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03AAD9151710CC9D005039B3 /* Build configuration list for PBXNativeTarget "ZMTableSyncTests" */;
+			buildPhases = (
+				03AAD8F91710CC9D005039B3 /* Sources */,
+				03AAD8FA1710CC9D005039B3 /* Frameworks */,
+				03AAD8FB1710CC9D005039B3 /* Resources */,
+				03AAD8FC1710CC9D005039B3 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03AAD9051710CC9D005039B3 /* PBXTargetDependency */,
+			);
+			name = ZMTableSyncTests;
+			productName = ZMTableSyncTests;
+			productReference = 03AAD8FE1710CC9D005039B3 /* ZMTableSyncTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03AAD8E51710CC9D005039B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Zumo;
+			};
+			buildConfigurationList = 03AAD8E81710CC9D005039B3 /* Build configuration list for PBXProject "ZMTableSync" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 03AAD8E41710CC9D005039B3;
+			productRefGroup = 03AAD8EE1710CC9D005039B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03AAD8EC1710CC9D005039B3 /* ZMTableSync */,
+				03AAD8FD1710CC9D005039B3 /* ZMTableSyncTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03AAD8FB1710CC9D005039B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03AAD90C1710CC9D005039B3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03AAD8FC1710CC9D005039B3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03AAD8E91710CC9D005039B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03AAD91D1710CCCE005039B3 /* ZMTableSync.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03AAD8F91710CC9D005039B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03AAD9261710CCF5005039B3 /* ZMAsyncTestingBlock.m in Sources */,
+				03AAD9271710CCF5005039B3 /* ZMLocalStore.m in Sources */,
+				03AAD9281710CCF5005039B3 /* TestModel.xcdatamodeld in Sources */,
+				03AAD9291710CCF5005039B3 /* ZMTableSyncTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03AAD9051710CC9D005039B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03AAD8EC1710CC9D005039B3 /* ZMTableSync */;
+			targetProxy = 03AAD9041710CC9D005039B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		03AAD90A1710CC9D005039B3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03AAD90B1710CC9D005039B3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03AAD9101710CC9D005039B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		03AAD9111710CC9D005039B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03AAD9131710CC9D005039B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/ZMTableSync.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZMTableSync/ZMTableSync-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		03AAD9141710CC9D005039B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/ZMTableSync.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZMTableSync/ZMTableSync-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		03AAD9161710CC9D005039B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZMTableSync/ZMTableSync-Prefix.pch";
+				INFOPLIST_FILE = "ZMTableSyncTests/ZMTableSyncTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				OTHER_LDFLAGS = (
+					"-force_load",
+					"$(SRCROOT)/libOCMock.a",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		03AAD9171710CC9D005039B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZMTableSync/ZMTableSync-Prefix.pch";
+				INFOPLIST_FILE = "ZMTableSyncTests/ZMTableSyncTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				OTHER_LDFLAGS = (
+					"-force_load",
+					"$(SRCROOT)/libOCMock.a",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03AAD8E81710CC9D005039B3 /* Build configuration list for PBXProject "ZMTableSync" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03AAD9101710CC9D005039B3 /* Debug */,
+				03AAD9111710CC9D005039B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03AAD9121710CC9D005039B3 /* Build configuration list for PBXNativeTarget "ZMTableSync" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03AAD9131710CC9D005039B3 /* Debug */,
+				03AAD9141710CC9D005039B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03AAD9151710CC9D005039B3 /* Build configuration list for PBXNativeTarget "ZMTableSyncTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03AAD9161710CC9D005039B3 /* Debug */,
+				03AAD9171710CC9D005039B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		03AAD9221710CCF5005039B3 /* TestModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				03AAD9231710CCF5005039B3 /* TestModel.xcdatamodel */,
+			);
+			currentVersion = 03AAD9231710CCF5005039B3 /* TestModel.xcdatamodel */;
+			path = TestModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 03AAD8E51710CC9D005039B3 /* Project object */;
+}

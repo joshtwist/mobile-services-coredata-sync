@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'ZMTableSync' target in the 'ZMTableSync' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
