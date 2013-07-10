@@ -13,7 +13,7 @@ To use this library you must first configure your core data database with each t
 The only pre-requisites that this library imposes on your Core Data schema are:
 
 1. Each entity must have an **id** property of type _Integer 32_
-2. Each entity must have a **syncStatus** property of type _string_
+2. Each entity must have a **syncStatus** property of type _Integer 32_
 
 The first is a pre-requisite for all objects in Windows Azure Mobile Services storage. The latter is used to indicate the state of the local record and whether it has changed since the last read or sync.
 
@@ -80,7 +80,7 @@ After a period of disconnectivity, you will need to programmatically upload any 
 		// that was performed: insert, update, delete
 		// remote - provides a copy of the new, updated object
 		// error - nil unless something went wrong.
-	}];
+	} error:&error];
 	
 Note that if a sync fails for a single entity, the error parameter will be populated and this object will still be marked as _not synchronized_ 
 
